@@ -87,7 +87,7 @@ public class PushyUtils {
             payload = message;
         }
         String token1 = TokenUtil.sanitizeTokenString(token);
-        SimpleApnsPushNotification pushNotification = new SimpleApnsPushNotification(token1, "com.soufun.SoufunBasic", payload);
+        SimpleApnsPushNotification pushNotification = new SimpleApnsPushNotification(token1, "topic.topoc.topoc", payload);
         return pushNotification;
     }
 
